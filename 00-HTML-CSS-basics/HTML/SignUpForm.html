@@ -3,33 +3,34 @@
 <html lang="es">
 <head>
 	<title>HTML FEDE</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Ejercicio 6 de HTML">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header>
 		<section>
 			<h1>Sign up form</h1>
+			<form>
+				<fieldset>
+					<legend>Informacion Personal</legend>
+					Nombre: <input type="text" name="nombre" required><br>
+					Apellido: <input type="text" name="apellido" required><br>
+					E-mail: <input type="email" name="e-mail" required><br>
+					Dia de Nacimiento: <input type="text" name="nacimiento" required><br>
+					Deporte Favorito: 
+					<select>
+						<option>Futbol</option>
+						<option>Tenis</option>
+						<option>Voley</option>
+						<option>Basquet</option>
+						<option>Otro</option>
+					</select><br>
+					Biografia: <br><textarea></textarea><br>
+					<input type="submit">
+					<input type="reset">
+				</fieldset>
+			</form>
 		</section>
 	</header>
-	<section>
-		<form>
-			<fieldset>
-				<legend>Informacion Personal</legend>
-				Nombre: <input type="text" name="nombre" required><br>
-				Apellido: <input type="text" name="apellido" required><br>
-				E-mail: <input type="email" name="e-mail" required><br>
-				Dia de Nacimiento: <input type="text" name="nacimiento" required><br>
-				Deporte Favorito: 
-				<select>
-					<option>Futbol</option>
-					<option>Tenis</option>
-					<option>Voley</option>
-					<option>Basquet</option>
-					<option>Otro</option>
-				</select><br>
-				Biografia: <br><textarea></textarea><br>
-				<input type="submit">
-				<input type="reset">
-			</fieldset>
-		</form>
-	</section>
 </body>
