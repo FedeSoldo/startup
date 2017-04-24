@@ -1,0 +1,84 @@
+html {
+	background: black;
+}
+
+.center {
+	box-sizing: content-box;
+}
+
+.header {
+	box-sizing: padding-box;
+	color: white;
+	font-size: 20px;
+	background: gray;
+	text-align: center;
+	border: 6px solid #949599;
+  	height: 100px;
+  	margin: 20px;
+  	padding: 20px;
+}
+
+.navigation {
+	color: white;
+	font-size: 20px;
+	background: gray;
+	text-align: center;
+	border: 6px solid #949599;
+  	height: 100px;
+  	margin: 20px;
+  	padding: 20px;
+  	width: 400px;
+}
+
+.content {
+	box-sizing: content-box;
+	color: white;
+	font-size: 20px;
+	background: gray;
+	text-align: center;
+	border: 6px solid #949599;
+	width: 400px;
+	margin: 20px;
+}
+
+.content *{
+	box-sizing: content-box;
+	color: white;
+	font-size: 20px;
+	background: gainsboro;
+	text-align: center;
+	border: 6px solid #949599;
+}
+
+.sidebar {
+	color: white;
+	font-size: 20px;
+	background: gray;
+	text-align: center;
+	border: 6px solid #949599;
+  	height: 100px;
+  	margin: 20px;
+  	padding: 20px;
+  	width: 400px;
+}
+
+
+
+.footer {
+	color: white;
+	font-size: 20px;
+	background: gray;
+	text-align: center;
+	border: 6px solid #949599;
+  	height: 100px;
+  	margin: 20px;
+  	padding: 20px;
+}
+
+/*div[class*="a"]{		Esto era para el ejercicio 2.3) 4 y 5
+	background: blue;
+}
+
+div[class$="r"]{
+	background: magenta;
+}*/
