@@ -8,41 +8,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<header>
-		<section>
-			<h1>Sign up form</h1>
-			<form>
-				<fieldset>
-					<legend>Informacion Personal</legend>
-					<section>
-					Nombre: <input type="text" name="nombre" required>
-					</section>
-					<section>
-					Apellido: <input type="text" name="apellido" required>
-					</section>
-					<section>
-					E-mail: <input type="email" name="e-mail" required>
-					</section>
-					<section>
-					Dia de Nacimiento: <input type="text" name="nacimiento" required>
-					</section>
-					<section>
-					Deporte Favorito: 
-					<select>
-						<option>Futbol</option>
-						<option>Tenis</option>
-						<option>Voley</option>
-						<option>Basquet</option>
-						<option>Otro</option>
-					</select>
-					</section>
-					<section>
-					Biografia: <br><textarea></textarea>
-					</section>
-					<input type="submit">
-					<input type="reset">
-				</fieldset>
-			</form>
-		</section>
-	</header>
+	<section>
+		<h1>Sign up form</h1>
+		<form>
+			<fieldset>
+				<legend>Informacion Personal</legend>
+
+				<label for="nombre">Nombre</label> 
+				<input type="text" name="nombre" required>
+
+				<label for="apellido">Apellido</label>
+				<input type="text" name="apellido" required>
+
+				<label for="email">E-mail</label>
+				<input type="email" name="e-mail" required>
+				
+				<label for="nacimiento">Dia de Nacimiento</label>
+				<input type="date" name="nacimiento" required>
+				
+				<label for="Deporte">Deporte Favorito</label> 
+				<select name="deporte">
+					<option value="futbol">Futbol</option>
+					<option value="tenis">Tenis</option>
+					<option value="voley">Voley</option>
+					<option value="basquet">Basquet</option>
+					<option value="otro">Otro</option>
+				</select>
+				
+				<label>Biografia</label>
+				<textarea name="biografia"></textarea>
+	
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+	</section>
 </body>
