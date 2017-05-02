@@ -1,0 +1,58 @@
+html {
+	background: black;
+	 font-family: Tahoma;
+	 font-size: 14px;
+}
+
+body *  {
+	color: white;
+	background: gray;
+	margin: 8px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.contenedor {
+	background: black;
+	justify-content: space-between;
+}
+
+nav {
+	display: inline-block;
+	width: 20%;
+	height: 600px;
+	float: left;
+	font-size: 20px;
+}
+
+section {
+	display: inline-block;
+	width: 56%;
+	height: 600px;
+
+}
+
+section *{
+	background: lightgray;
+}
+
+.headerSection {
+	height: 20%;
+}
+
+article {
+	font-size: 20px;
+	height: 54%;
+}
+
+.footerSection {
+	height: 20%;
+}
+
+aside {
+	display: inline-block;
+	width: 20%;
+	height: 600px;
+	float: right;
+}
+
